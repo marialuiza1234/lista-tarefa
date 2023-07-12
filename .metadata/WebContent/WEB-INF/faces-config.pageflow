@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16891696584270" configfile="/lista-tarefas/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="lista-tarefas.xhtml" id="pf16891697632587" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" outlinks="pf16891697632588 pf16891697632589" inlinks="pf16891697632588 pf168916976325810" path="/lista-tarefas.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="sobre.xhtml" id="pf168916976325811" referenceLink="//@navigationRule.1/@navigationCase.1/@toViewId|" outlinks="pf168916976325810 pf168916976325812" inlinks="pf16891697632589 pf168916976325812" path="/sobre.xhtml"/>
+  <links id="pf16891697632588" target="pf16891697632587" source="pf16891697632587" outcome="tarefas"/>
+  <links id="pf16891697632589" target="pf168916976325811" source="pf16891697632587" outcome="dono-info"/>
+  <links id="pf168916976325810" target="pf16891697632587" source="pf168916976325811" outcome="tarefas"/>
+  <links id="pf168916976325812" target="pf168916976325811" source="pf168916976325811" outcome="dono-info"/>
+</pageflow:Pageflow>
